@@ -1,10 +1,7 @@
 export function
-  muestraAlumnos() {
+  muestraReservaciones() {
   location.href =
-    "alumnos.html";
+    "pagina3.html";
 }
 
-export function
-  muestraUsuarios() {
-  location.href = "usuarios.html";
-}
+

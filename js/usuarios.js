@@ -11,16 +11,16 @@ import {
   muestraUsuarios
 } from "./navegacion.js";
 
-const SIN_ALUMNOS = /* html */
+const SIN_RESERVACIONES = /* html */
   `<option value="">
-    -- Sin Alumnos --
+    -- Sin Reservaciones --
   </option>`;
 
 const firestore = getFirestore();
 const daoRol = firestore.
   collection("Rol");
 const daoAlumno = firestore.
-  collection("Alumno");
+  collection("Reservaciones");
 const daoUsuario = firestore.
   collection("Usuario");
 
@@ -29,14 +29,14 @@ const daoUsuario = firestore.
     HTMLSelectElement} select
  * @param {string} valor */
 export function
-  selectAlumnos(select,
+  selectReservaciones(select,
     valor) {
   valor = valor || "";
   daoAlumno.
     orderBy("nombre").
     onSnapshot(
       snap => {
-        let html = SIN_ALUMNOS;
+        let html = SIN_RESERVACIONES;
         snap.forEach(doc =>
           html += htmlAlumno(
             doc, valor));
@@ -44,7 +44,7 @@ export function
       },
       e => {
         muestraError(e);
-        selectAlumnos(
+        selectReservaciones(
           select, valor);
       }
     );

@@ -30,7 +30,8 @@ export async function
 }
 
 /** 
- * @param {import("../lib/tiposFire.js")
+ * @param {
+ * import("../lib/tiposFire.js")
  * .User}
     usuario
  * @param {string[]} roles

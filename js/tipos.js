@@ -4,7 +4,7 @@
  */
 
 /**
- * @typedef {Object} Pedido
+ * @typedef {Object} Alumno
  * @property {string} nombre
  */
 

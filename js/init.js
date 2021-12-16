@@ -8,11 +8,11 @@
  * servidor. */
 // @ts-ignore
 firebase.initializeApp({
-  apiKey: "AIzaSyC9l_YOAi9AwQDM2UKnAIc6X4OglbkENow",
-  authDomain: "proyecto-final-b79fb.firebaseapp.com",
-  projectId: "proyecto-final-b79fb",
-  storageBucket: "proyecto-final-b79fb.appspot.com",
-  messagingSenderId: "191374850416",
-  appId: "1:191374850416:web:abfd75310acab08f0437b5",
-  measurementId: "G-X8D03ERDFF"
+  apiKey: "AIzaSyDBNdx_vbkKN-TC084koDLvk2BeAZ6uBBk",
+  authDomain: "gamexybstore.firebaseapp.com",
+  projectId: "gamexybstore",
+  storageBucket: "gamexybstore.appspot.com",
+  messagingSenderId: "208230694826",
+  appId: "1:208230694826:web:335e72d61a20a3f4b5f5d3",
+  measurementId: "G-NNC4PEQP8J"
 });
