@@ -27,9 +27,7 @@ getAuth().onAuthStateChanged(
     "../lib/tiposFire.js").User}
     usuario */
 async function protege(usuario) {
-  if (tieneRol(usuario,
-    ["Cliente"])) {
-    usuarioId = usuario.email;
+ 
     consulta();
     forma.addEventListener(
       "submit", agrega);
