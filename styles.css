@@ -194,7 +194,32 @@ ul {
     border: 1px solid gold;
     font-family: 'calibri';
     font-size: 18px;
-    
+}
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.form-register a{
+    color: white;
+    text-decoration: none;
+
+}
+.form-register a:hover{
+    color: white;
+    text-decoration: underline;
 
 
 }
+
+.form-register bottons{
+    width: 100%;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px;
+    font-size: 16px;
+}
+
