@@ -17,7 +17,7 @@ let usuarioId = "";
 /** @type {HTMLFormElement} */
 const forma = document["forma"];
 /** @type {HTMLUListElement} */
-const lista = document.
+const lista= document.
   querySelector("#lista");
 
 getAuth().onAuthStateChanged(
